@@ -1,6 +1,6 @@
 Name:           ftgl
 Version:        2.1.3
-Release:        0.21.rc1%{?dist}
+Release:        0.22.rc1
 Summary:        OpenGL frontend to Freetype 2
 
 License:        LGPLv2
@@ -100,5 +100,8 @@ rm -rf $RPM_BUILD_ROOT%{_datadir}/doc
 
 
 %ChangeLog
+* Thu Mar 24 2022 caodongxia <caodongxia@huawei.com> - 2.1.3-0.22.rc1
+- Delete %{?dist}
+
 * Sat May 16 2020 Hubble Zhu <zhuhengbo1@huawei.com> - 2.1.3-0.21.rc1
 - Init package
